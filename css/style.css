@@ -18,9 +18,14 @@ body {
   /* Inpedir que se actualice la aplicaccion en android cuando se arrastra desde arriba a bajo. */
   overscroll-behavior-y: contain;
 
+  /* IOS evitar la seleccion del usuario, evitar el resaltado y evitar las media modales. */
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+
+  /* IOS notch */
+  min-height: calc(100% + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 /* Personalizados */
