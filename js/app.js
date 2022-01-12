@@ -1,6 +1,7 @@
+const swLocation = location.pathname;
 
 if(navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js');
+    navigator.serviceWorker.register(`${swLocation}sw.js`);
 }
 
 // Referencias de jQuery

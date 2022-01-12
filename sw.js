@@ -10,7 +10,7 @@ const APP_CACHE_CONFIG = {
   },
   REGISTERS: {
     STATIC: [
-      '/',
+      // '/',
       '/index.html',
       '/css/style.css',
       '/img/favicon.ico',
