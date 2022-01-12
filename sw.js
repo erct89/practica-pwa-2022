@@ -1,5 +1,5 @@
 // imports
-importScripts('/js/sw-utils.js');
+importScripts('js/sw-utils.js');
 
 const CACHE_VERSION = 1;
 const APP_CACHE_CONFIG = {
@@ -11,24 +11,23 @@ const APP_CACHE_CONFIG = {
   REGISTERS: {
     STATIC: [
       // '/',
-      '/index.html',
-      '/css/style.css',
-      '/img/favicon.ico',
-      '/img/avatars/hulk.jpg',
-      '/img/avatars/ironman.jpg',
-      '/img/avatars/spiderman.jpg',
-      '/img/avatars/thor.jpg',
-      '/img/avatars/wolverine.jpg',
-      '/js/app.js',
-      '/js/sw-utils.js'
-
+      'index.html',
+      'css/style.css',
+      'img/favicon.ico',
+      'img/avatars/hulk.jpg',
+      'img/avatars/ironman.jpg',
+      'img/avatars/spiderman.jpg',
+      'img/avatars/thor.jpg',
+      'img/avatars/wolverine.jpg',
+      'js/app.js',
+      'js/sw-utils.js'
     ],
     IMMUTABLE: [
       'https://fonts.googleapis.com/css?family=Lato:400,300',
       'https://fonts.googleapis.com/css?family=Quicksand:300,400',
       'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-      '/css/animate.css',
-      '/js/libs/jquery.js'
+      'css/animate.css',
+      'js/libs/jquery.js'
     ]
   }
 };
