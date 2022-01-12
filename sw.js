@@ -1,7 +1,7 @@
 // imports
 importScripts('js/sw-utils.js');
 
-const CACHE_VERSION = 1;
+const CACHE_VERSION = 2;
 const APP_CACHE_CONFIG = {
   CACHES: {
     STATIC: `static-v${CACHE_VERSION}`,
