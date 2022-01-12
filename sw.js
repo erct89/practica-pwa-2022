@@ -1,5 +1,5 @@
 // imports
-importScripts('/js/sw-utils.js');
+importScripts('js/sw-utils.js');
 
 const CACHE_VERSION = 1;
 const APP_CACHE_CONFIG = {
