@@ -13,7 +13,10 @@ body {
   background-color: #dde1e2;
   width: 100%;
 
-  /* Inpedir que se actualice la aplicaccion en android cuando se arrastra desde arriba a bajo. */
+  /* 
+  Inpedir que se actualice la aplicaccion en android cuando se arrastra desde arriba a bajo. 
+  Tambien llamado pull to refresh.
+  */
   overscroll-behavior-y: contain;
 
   /* IOS evitar la seleccion del usuario, evitar el resaltado y evitar las media modales. */
